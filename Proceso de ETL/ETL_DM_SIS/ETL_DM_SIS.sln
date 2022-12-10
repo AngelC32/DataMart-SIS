@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL_DM_SIS", "ETL_DM_SIS.dtproj", "{93D749CD-FA32-4518-A5CA-D30570BAF599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D749CD-FA32-4518-A5CA-D30570BAF599}.Development|Default.ActiveCfg = Development
+		{93D749CD-FA32-4518-A5CA-D30570BAF599}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36AC01AA-5866-4A15-B16A-E703C1CC1D90}
+	EndGlobalSection
+EndGlobal
