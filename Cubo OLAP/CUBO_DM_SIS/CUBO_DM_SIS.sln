@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CUBO_DM_SIS", "CUBO_DM_SIS.dwproj", "{C79504CD-FC23-45E1-903A-C9FF35DB56A2}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CUBO_DM_SIS", "CUBO_DM_SIS.dwproj", "{2B069E7C-ADF4-4DD1-A3CA-36F871B1C790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C79504CD-FC23-45E1-903A-C9FF35DB56A2}.Development|Default.ActiveCfg = Development
-		{C79504CD-FC23-45E1-903A-C9FF35DB56A2}.Development|Default.Build.0 = Development
-		{C79504CD-FC23-45E1-903A-C9FF35DB56A2}.Development|Default.Deploy.0 = Development
+		{2B069E7C-ADF4-4DD1-A3CA-36F871B1C790}.Development|Default.ActiveCfg = Development
+		{2B069E7C-ADF4-4DD1-A3CA-36F871B1C790}.Development|Default.Build.0 = Development
+		{2B069E7C-ADF4-4DD1-A3CA-36F871B1C790}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B7CA3A3F-0FFC-425F-AD89-E9CBA12D633C}
+		SolutionGuid = {9107EED9-FA1B-4F7D-BB9A-EDBA244F04EC}
 	EndGlobalSection
 EndGlobal

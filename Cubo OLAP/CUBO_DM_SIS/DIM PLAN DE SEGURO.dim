@@ -1,8 +1,8 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f1c8623a-9e3b-483c-b225-f1e60d823be5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8c74658e-d7b1-401f-8dbd-1dfc73123eb3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM PLAN DE SEGURO</ID>
   <Name>DIM PLAN DE SEGURO</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -66,37 +66,37 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8fa7f165-80ad-4b60-8c85-66f0b7cf5cbc">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="92ab59d3-36d2-4719-8325-38bfa13e21f4">
     <DataSourceViewID>DM SIS</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="551b0360-ed3e-4a03-afc6-0028add4a567">
+  <ErrorConfiguration dwd:design-time-name="dfd7e8ca-21f3-4871-899d-41e516d72f44">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a1dd3726-9047-4de8-b239-b793489e394e">
+    <Attribute dwd:design-time-name="a1aeb7f0-459c-47b0-a7cf-a07a58517111">
       <ID>SK PLAN DE SEGURO</ID>
       <Name>SK PLAN DE SEGURO</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7b579a8c-7cce-40ca-9c1c-57d172384895">
+        <KeyColumn dwd:design-time-name="403fde92-04f6-4d29-81ef-13eb94ef5318">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="010fd9f4-8610-4e7e-b435-191044fac75e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="122c1b07-d8f2-4286-8dc1-26ce15613e9d">
             <TableID>dbo_DIM_PLAN_DE_SEGURO</TableID>
             <ColumnID>SK_PLAN_DE_SEGURO</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="835e71e6-fa7e-4036-80a0-18a9cd3b203d">
+        <AttributeRelationship dwd:design-time-name="6abec4c8-c5ac-4471-927b-1cfbcd5cfea9">
           <AttributeID>REGIMEN FINANCIAMIENTO</AttributeID>
           <Name>REGIMEN FINANCIAMIENTO</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ef181140-5d72-496b-badd-47c2555fabd7">
+        <AttributeRelationship dwd:design-time-name="00daf25b-8598-43f9-b5bb-fededd3f1dcb">
           <AttributeID>NOMBRE PLAN DE SEGURO</AttributeID>
           <Name>NOMBRE PLAN DE SEGURO</Name>
         </AttributeRelationship>
@@ -105,14 +105,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b36a6979-5b1d-492c-b14a-afec4653a9d0">
+    <Attribute dwd:design-time-name="8431c869-38d4-4c52-a2ff-28436b602c4f">
       <ID>REGIMEN FINANCIAMIENTO</ID>
       <Name>REGIMEN FINANCIAMIENTO</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b174b3f8-dda8-46bb-ba94-d1e252d0b29c">
+        <KeyColumn dwd:design-time-name="030e98bc-93db-4be8-9c0f-64dca9495c5d">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0aa2aa5-13bd-4506-b903-8186c70fae8c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e54b88df-2ffc-46d4-b2e9-f6ed5fcb5dac">
             <TableID>dbo_DIM_PLAN_DE_SEGURO</TableID>
             <ColumnID>REGIMEN_FINANCIAMIENTO</ColumnID>
           </Source>
@@ -121,14 +121,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="eb801551-8c0f-499c-a8dd-4830d37ed0ab">
+    <Attribute dwd:design-time-name="3ae96565-85f2-4d19-abfe-70e681868f71">
       <ID>NOMBRE PLAN DE SEGURO</ID>
       <Name>NOMBRE PLAN DE SEGURO</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8a4c4f3f-70c4-4857-826d-eb5821de9da6">
+        <KeyColumn dwd:design-time-name="9a9f688a-fbda-4ca1-aa24-1a00995cea8f">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ab1adef-65c6-452f-9dd2-84d2093eec9f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8ece83f-991c-4892-aa59-f03d5be6d3ca">
             <TableID>dbo_DIM_PLAN_DE_SEGURO</TableID>
             <ColumnID>NOMBRE_PLAN_DE_SEGURO</ColumnID>
           </Source>

@@ -1,0 +1,2 @@
+Para utilizar el archivo csv en el ETL, descomprimir el archivo rar.
+Si quiere utilizar data actualizada de la página de datos abiertos, pegue el archivo csv con el siguiente nombre:OPENDATA_AFILIADOS.csv

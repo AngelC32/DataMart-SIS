@@ -12,16 +12,22 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>DIM IPRESS</ID>
-      </Dimension>
-      <Dimension>
         <ID>DIM LUGAR</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM NACIONALIDAD</ID>
+        <ID>DIM EDAD</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM IPRESS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM SEXO</ID>
       </Dimension>
       <Dimension>
         <ID>DIM PLAN DE SEGURO</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM NACIONALIDAD</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

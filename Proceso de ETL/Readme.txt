@@ -1,0 +1,1 @@
+Para usar el archivo CSV deberá configurar la ubicación del archivo dentro del ETL

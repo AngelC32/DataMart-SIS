@@ -1,0 +1,1 @@
+Para la utilización del Cubo, deberá otorgar el permiso de datareader al servidor de Analysis services para el acceso al datamart

@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ETL_DM_SIS</Name>
-    <LastWriteTime>2022-12-10T02:15:07.1035254Z</LastWriteTime>
+    <LastWriteTime>2023-01-09T22:54:32.5008815Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2022-12-10T04:08:42.4559027Z</LastWriteTime>
+      <LastWriteTime>2023-01-09T22:54:31.7299501Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

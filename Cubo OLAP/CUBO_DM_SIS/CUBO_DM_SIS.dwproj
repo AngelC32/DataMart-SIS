@@ -20,20 +20,28 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM IPRESS.dim</Name>
-      <FullPath>DIM IPRESS.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DIM LUGAR.dim</Name>
       <FullPath>DIM LUGAR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM NACIONALIDAD.dim</Name>
-      <FullPath>DIM NACIONALIDAD.dim</FullPath>
+      <Name>DIM EDAD.dim</Name>
+      <FullPath>DIM EDAD.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM IPRESS.dim</Name>
+      <FullPath>DIM IPRESS.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM SEXO.dim</Name>
+      <FullPath>DIM SEXO.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM PLAN DE SEGURO.dim</Name>
       <FullPath>DIM PLAN DE SEGURO.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM NACIONALIDAD.dim</Name>
+      <FullPath>DIM NACIONALIDAD.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
